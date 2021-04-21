@@ -108,9 +108,6 @@ public class Facebook_bonistyle {
 		public static void screenshots(WebDriver webdriver , String location) throws IOException
 		{
 		
-			
-			
-
 			//convert web driver object to Takescreenshoot
 			TakesScreenshot scrShot =((TakesScreenshot)webdriver);
 		//Call getScreenshotAs method to create image file

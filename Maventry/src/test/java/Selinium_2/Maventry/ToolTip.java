@@ -23,7 +23,7 @@ public class ToolTip {
 		System.setProperty("webdriver.chrome.driver","E:\\selenium\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver ();// open browser
 		System.getProperty("line.separator");
-		String expectedTooltip = "What's new in 3.2";		
+		String expectedTooltip = "What's new in 3.2"; //tool	
 		String baseUrl = "http://demo.guru99.com/test/tooltip.html";
         driver.get(baseUrl);					
         		
